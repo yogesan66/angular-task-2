@@ -1,3 +1,9 @@
 p {
   font-family: Lato;
 }
+input[type='text'] {
+  width:200px;
+}
+button{
+   margin:4px;
+}

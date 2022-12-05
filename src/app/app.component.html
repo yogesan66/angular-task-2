@@ -1,4 +1,6 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h2>{{text_value}}</h2>
+<h4>Working with events</h4>
+<!--two way binding - the value of the textbox will be assigned to "text_value" variable-->
+<input type="text" [(ngModel)]="text_value">
+<!--when the button is clicked, it will call the "onclick() function"-->
+<button (click)="onclick()">Click me</button>
